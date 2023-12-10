@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif
+}
+
+.main-container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f3fb;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: white;
+    border-bottom: 2px solid #E9EBEC;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.left {
+    width: 12vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left h1::first-letter {
+    color: #7D7CEC;
+}
+
+.left h1::first-line {
+    color: orange;
+}
+.left h4 span.first-word {
+    color: #7D7CEC;
+}
+
+.left h4 span.second-word {
+    color: orange
+}
+
+.right {
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.right a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.right a:visited {
+    color: black;
+}
+
+.search-area {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px
+}
+
+.search-buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #5e17eb;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.search-area {
+    background-image: linear-gradient(
+  95deg,
+  hsl(240deg 60% 1%) 0%,
+  hsl(240deg 60% 25%) 55%,
+  hsl(241deg 60% 48%) 100%
+);
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+
+
+.body-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: flex-start;
+}
+
+.text-right, .text-left {
+    margin: 30px 0;
+}
+
+.body-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+    border: 2px solid #E9EBEC;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: white;
+}
